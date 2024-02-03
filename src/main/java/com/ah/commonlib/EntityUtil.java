@@ -4,6 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 public class EntityUtil {
+	
+	public static final String UPDATEATCAMEL = "updateAt";
 
 	/**
 	 * 引数のentityインスタンスから、テーブル名を取得する<br>
